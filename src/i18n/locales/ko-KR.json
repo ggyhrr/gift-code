@@ -1,0 +1,99 @@
+{
+  "app": {
+    "title": "Gift Code 도구",
+    "subtitle": "여러 계정을 관리하고 기프트 코드 일괄 사용",
+    "loadingAccounts": "저장된 계정 불러오는 중..."
+  },
+  "accountManager": {
+    "title": "계정 관리",
+    "count": "{{count}} 개 계정",
+    "import": "계정 가져오기",
+    "export": "계정 내보내기",
+    "empty": "아직 추가된 계정이 없습니다",
+    "importProblems": "가져오기 중 발견된 문제:",
+    "close": "닫기",
+    "inputPlaceholder": "계정 번호 입력...",
+    "confirm": "확인",
+    "cancel": "취소",
+    "add": "계정 추가",
+    "importing": "가져오는 중...",
+    "castleLevel": "성 레벨",
+    "kingdom": "왕국 {{kid}}",
+    "delete": "계정 삭제",
+    "noAccountsToExport": "내보낼 계정이 없습니다",
+    "importProgress": "가져오는 중... 남은 {{remaining}} / 총 {{total}}"
+  },
+  "giftCode": {
+    "title": "Gift Code",
+    "inputLabel": "Gift Code 입력",
+    "inputPlaceholder": "Gift Code 를 입력하세요...",
+    "processing": "처리 중...",
+    "needAccounts": "먼저 계정을 추가하세요",
+    "startAll": "모든 계정에 적용",
+    "alreadyClaimed": "이미 사용된 코드입니다",
+    "notExists": "코드가 존재하지 않습니다",
+    "quotaExceeded": "사용 한도를 초과했습니다",
+    "expired": "코드가 만료되었습니다",
+    "failed": "사용 실패",
+    "networkError": "네트워크 요청 실패: {{error}}",
+    "alreadyClaimedShort": "이미 사용",
+    "notExistsShort": "존재 안 함",
+    "quotaExceededShort": "한도 초과",
+    "expiredShort": "만료",
+    "successShort": "성공!"
+  },
+  "status": {
+    "title": "상태",
+    "addAccountsHint": "계정을 추가하면 통계가 표시됩니다",
+    "verified": "검증됨",
+    "processing": "처리 중",
+    "success": "성공",
+    "error": "실패",
+    "progress": "진행도",
+    "total": "총 계정:",
+    "validationRate": "검증률:",
+    "successRate": "성공률:",
+    "remaining": "남은 {{count}}"
+  },
+  "alert": {
+    "close": "닫기",
+    "ok": "확인"
+  },
+  "language": {
+    "switch": "언어",
+    "zh": "中文",
+    "en": "English",
+    "ko": "한국어"
+  },
+  "settings": {
+    "requestInterval": "API 간격"
+  },
+  "messages": {
+    "exportSuccess": "{{count}} 개 계정 내보냈습니다",
+    "importFileFormatError": "잘못된 파일 형식: 텍스트 파일 (.txt, .csv)을 선택하세요",
+    "importFileTooLarge": "파일이 너무 큼 ({{size}}): 1MB 미만 파일을 선택하세요",
+    "importFileEmpty": "파일이 비어있거나 잘못되었습니다",
+    "importFormatInvalid": "형식 오류: {{list}}{{more}}",
+    "importDuplicate": "파일 내 중복: {{list}}{{more}}",
+    "importExisting": "이미 존재: {{list}}{{more}}",
+    "moreCount": " (총 {{count}} 개)",
+    "importAddFailed": "추가 실패: {{account}}",
+    "importCompletedWithIssues": "가져오기 완료. 성공: {{success}}, 문제: {{issues}}",
+    "importSuccess": "가져오기 성공! {{count}} 개 계정 추가",
+    "importAllFailed": "가져오기 실패: 모든 계정에 문제가 있습니다",
+    "fileReadError": "파일 읽기 실패",
+    "accountExists": "계정 \"{{account}}\" 는 이미 존재합니다",
+    "accountQuerying": "계정 정보 조회 중...",
+    "queryFailed": "조회 실패",
+    "accountNotExists": "계정이 존재하지 않습니다",
+    "accountAddFailed": "계정 \"{{account}}\" {{error}} 로 인해 추가되지 않음",
+    "playerInfoQueryingProgress": "플레이어 정보 조회 중... ({{current}}/{{total}})",
+    "validationFailed": "검증 실패",
+    "needAddAccount": "먼저 계정을 추가하세요",
+    "noValidatedAccounts": "Gift Code 를 사용할 검증된 계정이 없습니다",
+    "accountNotValidated": "계정이 검증되지 않았습니다",
+    "redeemSuccess": "사용 성공!",
+    "redeemFailed": "사용 실패",
+    "importSummary": "가져오기 완료: 시도 {{total}}, 성공 {{success}}, 실패 {{failed}}"
+  }
+}

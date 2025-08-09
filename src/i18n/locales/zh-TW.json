@@ -1,0 +1,99 @@
+{
+  "app": {
+    "title": "Gift Code 領取工具",
+    "subtitle": "管理多個帳號並同時領取 Gift Code",
+    "loadingAccounts": "載入儲存的帳號中..."
+  },
+  "accountManager": {
+    "title": "帳號管理",
+    "count": "{{count}} 個帳號",
+    "import": "匯入帳號",
+    "export": "匯出帳號",
+    "empty": "尚未新增任何帳號",
+    "importProblems": "匯入時發現以下問題:",
+    "close": "關閉",
+    "inputPlaceholder": "輸入帳號數字...",
+    "confirm": "確認",
+    "cancel": "取消",
+    "add": "新增帳號",
+    "importing": "匯入中...",
+    "castleLevel": "城堡等級",
+    "kingdom": "王國 {{kid}}",
+    "delete": "刪除帳號",
+    "noAccountsToExport": "沒有帳號可以匯出",
+    "importProgress": "匯入中... 剩 {{remaining}} 個 / 共 {{total}} 個"
+  },
+  "giftCode": {
+    "title": "Gift Code",
+    "inputLabel": "輸入 Gift Code",
+    "inputPlaceholder": "請輸入 Gift Code...",
+    "processing": "領取中...",
+    "needAccounts": "請先新增帳號",
+    "startAll": "開始領取所有帳號",
+    "alreadyClaimed": "已經領過此禮包碼",
+    "notExists": "禮包碼不存在",
+    "quotaExceeded": "禮包碼超過領取次數",
+    "expired": "超出領取時間",
+    "failed": "領取失敗",
+    "networkError": "網路請求失敗: {{error}}",
+    "alreadyClaimedShort": "已經領過",
+    "notExistsShort": "禮包碼不存在",
+    "quotaExceededShort": "超過領取次數",
+    "expiredShort": "超出領取時間",
+    "successShort": "領取成功！"
+  },
+  "status": {
+    "title": "處理狀態",
+    "addAccountsHint": "新增帳號後將顯示統計資訊",
+    "verified": "已驗證",
+    "processing": "處理中",
+    "success": "成功",
+    "error": "失敗",
+    "progress": "處理進度",
+    "total": "總計帳號：",
+    "validationRate": "驗證率：",
+    "successRate": "成功率："
+  },
+  "alert": {
+    "close": "關閉",
+    "ok": "確定"
+  },
+  "language": {
+    "switch": "語言",
+    "zh": "中文",
+    "en": "English",
+    "ko": "한국어"
+  },
+  "settings": {
+    "requestInterval": "API 請求間隔"
+  },
+  "messages": {
+    "exportSuccess": "成功匯出 {{count}} 個帳號",
+    "importFileFormatError": "檔案格式錯誤：請選擇文字檔案 (.txt, .csv)",
+    "importFileTooLarge": "檔案過大 ({{size}})：請選擇小於 1MB 的檔案",
+    "importFileEmpty": "檔案內容為空或無效",
+    "importFormatInvalid": "格式不正確: {{list}}{{more}}",
+    "importDuplicate": "檔案中重複: {{list}}{{more}}",
+    "importExisting": "已存在: {{list}}{{more}}",
+    "moreCount": " (共 {{count}} 個)",
+    "importAddFailed": "添加失敗: {{account}}",
+    "importCompletedWithIssues": "匯入完成！成功: {{success}} 個，問題: {{issues}} 個",
+    "importSuccess": "匯入成功！已添加 {{count}} 個帳號",
+    "importAllFailed": "匯入失敗：所有帳號都有問題",
+    "fileReadError": "檔案讀取失敗",
+    "accountExists": "帳號 \"{{account}}\" 已存在，請勿重複新增",
+    "accountQuerying": "正在查詢帳號資訊...",
+    "queryFailed": "查詢失敗",
+    "accountNotExists": "帳號不存在",
+    "accountAddFailed": "帳號 \"{{account}}\" {{error}}，未加入清單",
+    "playerInfoQueryingProgress": "正在查詢玩家資訊... ({{current}}/{{total}})",
+    "validationFailed": "驗證失敗",
+    "needAddAccount": "請先新增帳號",
+    "noValidatedAccounts": "沒有已驗證的帳號可以領取 Gift Code",
+    "accountNotValidated": "帳號未驗證",
+    "redeemSuccess": "領取成功！",
+    "redeemFailed": "領取失敗",
+    "giftCodeRedeemingProgress": "領取中... (剩 {{remaining}} 個)",
+    "importSummary": "匯入完成：嘗試 {{total}} 個，成功 {{success}} 個，失敗 {{failed}} 個"
+  }
+}

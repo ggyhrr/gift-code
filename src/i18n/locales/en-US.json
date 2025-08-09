@@ -1,0 +1,99 @@
+{
+  "app": {
+    "title": "Gift Code Tool",
+    "subtitle": "Manage multiple accounts and redeem gift codes",
+    "loadingAccounts": "Loading saved accounts..."
+  },
+  "accountManager": {
+    "title": "Accounts",
+    "count": "{{count}} accounts",
+    "import": "Import Accounts",
+    "export": "Export Accounts",
+    "empty": "No accounts added yet",
+    "importProblems": "Problems found during import:",
+    "close": "Close",
+    "inputPlaceholder": "Enter account number...",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "add": "Add Account",
+    "importing": "Importing...",
+    "castleLevel": "Castle Level",
+    "kingdom": "Kingdom {{kid}}",
+    "delete": "Delete Account",
+    "noAccountsToExport": "No accounts to export",
+    "importProgress": "Importing... {{remaining}} left / {{total}} total"
+  },
+  "giftCode": {
+    "title": "Gift Code",
+    "inputLabel": "Enter Gift Code",
+    "inputPlaceholder": "Please enter gift code...",
+    "processing": "Processing...",
+    "needAccounts": "Add an account first",
+    "startAll": "Redeem for all accounts",
+    "alreadyClaimed": "Gift code already claimed",
+    "notExists": "Gift code does not exist",
+    "quotaExceeded": "Gift code claim limit exceeded",
+    "expired": "Gift code expired",
+    "failed": "Redeem failed",
+    "networkError": "Network request failed: {{error}}",
+    "alreadyClaimedShort": "Already claimed",
+    "notExistsShort": "Code not exists",
+    "quotaExceededShort": "Limit exceeded",
+    "expiredShort": "Expired",
+    "successShort": "Redeemed successfully!"
+  },
+  "status": {
+    "title": "Status",
+    "addAccountsHint": "Statistics will appear after adding accounts",
+    "verified": "Verified",
+    "processing": "Processing",
+    "success": "Success",
+    "error": "Failed",
+    "progress": "Progress",
+    "total": "Total Accounts:",
+    "validationRate": "Validation Rate:",
+    "successRate": "Success Rate:",
+    "remaining": "Remaining {{count}}"
+  },
+  "alert": {
+    "close": "Close",
+    "ok": "OK"
+  },
+  "language": {
+    "switch": "Language",
+    "zh": "中文",
+    "en": "English",
+    "ko": "한국어"
+  },
+  "settings": {
+    "requestInterval": "API Interval"
+  },
+  "messages": {
+    "exportSuccess": "Exported {{count}} accounts successfully",
+    "importFileFormatError": "Invalid file format: please choose a text file (.txt, .csv)",
+    "importFileTooLarge": "File too large ({{size}}): choose a file under 1MB",
+    "importFileEmpty": "File is empty or invalid",
+    "importFormatInvalid": "Invalid format: {{list}}{{more}}",
+    "importDuplicate": "Duplicates in file: {{list}}{{more}}",
+    "importExisting": "Already exists: {{list}}{{more}}",
+    "moreCount": " (total {{count}})",
+    "importAddFailed": "Add failed: {{account}}",
+    "importCompletedWithIssues": "Import finished. Success: {{success}}, Issues: {{issues}}",
+    "importSuccess": "Import success! Added {{count}} accounts",
+    "importAllFailed": "Import failed: all accounts have issues",
+    "fileReadError": "File read failed",
+    "accountExists": "Account \"{{account}}\" already exists",
+    "accountQuerying": "Querying account info...",
+    "queryFailed": "Query failed",
+    "accountNotExists": "Account does not exist",
+    "accountAddFailed": "Account \"{{account}}\" {{error}}, not added",
+    "playerInfoQueryingProgress": "Querying player info... ({{current}}/{{total}})",
+    "validationFailed": "Validation failed",
+    "needAddAccount": "Add an account first",
+    "noValidatedAccounts": "No validated accounts to redeem",
+    "accountNotValidated": "Account not validated",
+    "redeemSuccess": "Redeemed successfully!",
+    "redeemFailed": "Redeem failed",
+    "importSummary": "Import finished: attempted {{total}}, success {{success}}, failed {{failed}}"
+  }
+}
